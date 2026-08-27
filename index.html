@@ -9,7 +9,15 @@
         <main class="container">
             <h1 class="title">Generate a <span class="green-text">random password</span></h1>
             <p class="text">Never use an insecure password again.</p>
-            <input type="number" placeholder="12"></input><br>
+            <input type="number" placeholder="12" id="length-input" value="16"><br>
+            <div class="check-container">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Symbols</label>
+            </div>
+            <div class="check-container">
+                <input type="checkbox" id="numbers">
+                <label for="numbers">Numbers</label>
+            </div>
             <button id="gen-btn" class="btn">Generate passwords</button>
             <hr class="horizontal-lane">
             <div class="pass-container">

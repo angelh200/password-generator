@@ -5,7 +5,6 @@ body {
 
 .container {
     width: 446px;
-    height: 320px;
     margin: 64px auto;
     background-color: #1F2937;
     padding: 115px 52px;
@@ -41,6 +40,7 @@ body {
     border: none;
     padding: 9px 17px;
     border-radius: 6px;
+    font-size: 16px;
 }
 
 .horizontal-lane {
@@ -65,4 +65,20 @@ body {
     border: none;
     color: #4ADF86;
     font-family: "Inter", sans-serif;
+}
+
+#length-input {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.check-container {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
 }
