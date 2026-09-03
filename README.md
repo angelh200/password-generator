@@ -1,19 +1,31 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🔐 Password Generator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A fast and efficient random password generator designed to create secure passwords according to the user's needs.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
+🔗 **[View Live Preview Here](https://angelh200-password-generator.netlify.app/)**
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## ✨ Features
 
-Happy Coding!
+* **Customizable length:** Allows the user to define the exact number of characters needed.
+* **Character filters:** Integrated options (checkboxes) to include or exclude numbers and/or special symbols.
+* **Double generation:** Generates 2 password options simultaneously to provide alternatives to the user.
+* **Copy to clipboard:** One-click functionality to instantly copy the password without the need for manual selection.
+* **Random generation:** Algorithm designed to ensure maximum randomness and security in every output.
+
+## 📸 Project Preview
+
+![Application Screenshot](./screenshot.png)
+
+## 🛠️ Technologies Used
+
+* **HTML5** - Project structure.
+* **CSS3** - Styles and user interface design.
+* **JavaScript (Vanilla)** - Logic behind the random generator and the copy-to-clipboard functionality.
+
+## 🚀 Running Locally
+
+If you want to run this project in your own environment:
+
+1. Clone this repository in your terminal:
+   ```bash
+   git clone [https://github.com/angelh200/password-generator.git](https://github.com/angelh200/password-generator.git)
